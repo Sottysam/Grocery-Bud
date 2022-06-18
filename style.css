@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgba(235, 243, 243, 0.897);
+}
+
+section{
+    background-color: white;
+    width: 550px;
+    height: auto;
+    margin: auto;
+    margin-top: 120px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.2);
+}
+
+.spot{
+    background-color: transparent;
+    width: 300px;
+    margin: auto;
+    padding: 2px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+h1{
+    color: rgb(20, 20, 85);
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+input{
+    padding: 5px 10px;
+    width: 400px;
+    margin: auto;
+    background-color: rgba(235, 243, 243, 0.897);
+    border: none;
+}
+
+input:hover{
+    outline: 2px solid rgb(12, 12, 46);
+}
+
+button{
+    background-color: rgb(12, 46, 240);
+    border: none;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 6px 10px;
+    margin-left: -5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(51, 80, 248);
+}
+
+main{
+    background-color: transparent;
+    padding: 10px;
+    width: 450px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.dom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.icon{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.edit{
+    color: lawngreen;
+    font-size: 13px;
+}
+
+.delete{
+    color: rgba(225,0,0,0.7);
+    font-size: 12px;
+}
+
+footer{
+    color: rgba(225,0,0,0.7);
+    margin-top: 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    visibility: hidden;
+    font-weight: bold;
+}
+
+.show{
+    visibility: visible;
+}
+
+/* Xtras */
+.success{
+    background-color: darkgreen;
+    color: #d4edda;
+}
+
+.failure{
+    background-color: darkred;
+    color: #d4edda;
+}
+
+@media (max-width: 768px){
+    section{
+        width: 450px;
+    }
+    button{
+        margin-top: 10px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        font-size: 17px;
+    }
+    main{
+        width: 400px;
+    }
+    input{
+        height: 50px;
+        font-size: 19px;
+    }
+    .dom p{
+        font-size: 19px;
+    }
+    .edit{
+        font-size: 19px;
+    }
+    .delete{
+        font-size: 19px;
+    }
+}
