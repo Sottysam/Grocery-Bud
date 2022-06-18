@@ -1,3 +1,4 @@
 # Grocery-Bud
-a To-do List site that saves, edit and store our todos[Screenshot (15)](https://user-images.githubusercontent.com/101476757/174436668-10ce016d-5108-4d8f-badb-251b43098be1.png)
-![Screenshot (14)](https://user-images.githubusercontent.com/101476757/174436671-f772a2db-1fd5-4e5c-a67d-2671ebe844c3.png)
+a To-do List site that saves, edit and store our todos
+![Screenshot (17)](https://user-images.githubusercontent.com/101476757/174458957-f9080b3a-d80e-4bfb-9ce7-6863a62d7d68.png)
+![Screenshot (16)](https://user-images.githubusercontent.com/101476757/174458958-d8411386-7c72-4e57-8f83-335da027f426.png)
