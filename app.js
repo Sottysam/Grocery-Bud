@@ -62,6 +62,7 @@ function deleteItem(e){
   }else{
     clearBtn.classList.add("show")
   }
+  display("item deleted", "success")
   backToDefault()
   removeFromStorage(id)
 }
